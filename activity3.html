@@ -11,5 +11,18 @@
 <p id="p2"></p>
 <p id="p3"></p>
 <p id="p4"></p>
+<script>
+    //normal function
+    function add(a,b){
+        return a+b;
+    }
+    document.getElementById("p2").innerHTML=add(2,3);
+    //arrow function
+    var sum=(a,b)=>a+b
+    document.getElementById("p1").innerHTML=sum(2,3);
+    var hello=(val)=>"Welcome to Codingal "+val;
+    document.getElementById("p3").innerHTML=hello('Jouri');
+    // "" and '' have no difference
+</script>
 </body>
 </html>
